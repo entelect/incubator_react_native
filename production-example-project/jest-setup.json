@@ -1,0 +1,28 @@
+{
+    "setupTestFrameworkScriptFile": "<rootDir>/jest-setup/jest-setup.js",
+    "testEnvironment": "jsdom",
+    "testRegex": "\\.(spec|test).js$",
+    "preset": "react-native",
+    "verbose": true,
+    "transform": {
+        "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
+    },
+    "transformIgnorePatterns": ["node_modules/(?!react-native)"],
+    "coverageThreshold": {
+        "global": {
+            "branches": 50,
+            "functions": 50,
+            "lines": 50,
+            "statements": 50
+        }
+    },
+    "collectCoverageFrom": [
+        "**/src/**/*.js",
+        "!**/src/app.js",
+        "!**/src/navigation/root-navigation-stack.js",
+        "!**/src/navigation/navigation-stacks/app-navigation-stack.js",
+        "!**/src/navigation/navigation-stacks/authentication-navigation-stack.js",
+        "!**/src/redux/root-reducer.js",
+        "!**/src/redux/store.js"
+    ]
+}
