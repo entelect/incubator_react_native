@@ -14,7 +14,7 @@ export default class HomeScreenView extends Component {
     render() {
         return (
             <ToolbarWrapperView title="Home" navigation={this.props.navigation}>
-                <MaterialIcon name="home" color={colors.primaryColor2} size={width * 0.3} />
+                <MaterialIcon name="home" color={colors.secondaryColor1} size={width * 0.3} />
                 {HomeScreenView.renderText()}
             </ToolbarWrapperView>
         );
