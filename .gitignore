@@ -1,0 +1,114 @@
+# OSX
+#
+.DS_Store
+
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/*
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+
+# Test
+#
+*tmp
+.tmp/*
+coverage/*
+*.keystore
+
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+
+# BUCK
+#
+buck-out/
+\.buckd/
+
+
+# vscode
+#
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+typings/*
+
+
+# Thumbs
+#
+Thumbs.db
+
+
+# Crash Reports
+#
+android/app/src/main/res/values/com_crashlytics_export_strings.xml
+android/app/src/main/assets/crashlytics-build.properties
+.vscode/
+*.orig
+
+
+# Android Bundles
+#
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/assets/index.android.bundle.meta
+android/app/captures/
+
+# Android Build
+#
+android/app/build/
+
+
+
+# iOS Bundles
+#
+ios/leads\.xcworkspace/xcshareddata/WorkspaceSettings\.xcsettings
+
+
+# SourceTree
+#
+*.js.rej
+npm-debug.*
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# package lock file (using yarn.lock instead)
+/package-lock.json

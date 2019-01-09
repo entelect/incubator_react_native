@@ -8,7 +8,7 @@ import homeScreenNavigation from '../home-screen/home-screen.navigation';
 import { dimensionsService, accountService } from '../../services/services';
 import textStyle from '../../assets/styles/text.style';
 import colors from '../../assets/colors/colors';
-import loadingAnimation from '../../assets/animations/sun.json';
+import loadingAnimation from '../../assets/animations/entelect-gears-loader';
 
 const { width } = dimensionsService.getScreenDimensions();
 
@@ -29,7 +29,7 @@ export default class SplashScreenView extends Component {
         return (
             <View style={styles.splashScreenWrapper}>
                 <LottieView source={loadingAnimation} autoPlay loop />
-                <Text style={[textStyle.header1, styles.textPadding]}>
+                <Text style={[textStyle.header1, styles.textStyle]}>
                     {'Welcome to Entelect React Native'}
                 </Text>
             </View>
@@ -65,9 +65,11 @@ const styles = StyleSheet.create({
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: colors.backgroundColor
+        backgroundColor: colors.backgroundColor,
+        padding: width * 0.15
     },
-    textPadding: {
-        paddingTop: width * 0.4
+    textStyle: {
+        paddingTop: width * 0.5,
+        textAlign: 'center'
     }
 });
