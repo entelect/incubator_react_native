@@ -64,7 +64,7 @@ You have free reign over the design, layout, and look & feel of the portal. Be c
 
 You're welcome to use whatever you please, but the [Expo](https://facebook.github.io/react-native/docs/getting-started) seed is the easiest seed with which to begin your project. You can also use Entelect's own React Native [starter project﻿](https://github.com/entelect/incubator_react_native) if you don't mind setting up the Android/iOS environments.
 
-*Note: Expo is not recommended for large or enterprise projects, see the **Getting Started** section in the [React Native Beginner's Guide](https://confluence.entelect.co.za/download/attachments/28147728/React%20Native%20-%20A%20Beginner%27s%20Guide.pdf?version=1&modificationDate=1545909051510&api=v2) for a more detailed breakdown of getting started with React Native.*
+*Note: Expo is not recommended for large or enterprise projects, see the **Getting Started** section in the [React Native Beginner's Guide](https://confluence.entelect.co.za/download/attachments/28147728/React%20Native%20-%20A%20Beginner%27s%20Guide.pdf?version=1&modificationDate=1545909051510&api=v2) for a more detailed breakdown of starting enterprise project with React Native. If you'd like to have a look at an example of a enterprise-level starter project (including state management with Redux and React Navigation as a navigation framework), you can have a look at Entelect's own React Native [production-example-project﻿](https://github.com/entelect/incubator_react_native).*
 
 ## Advanced
 1) Use React Native's [Geolocation API](https://facebook.github.io/react-native/docs/geolocation) to automatically get the user's location (this is not available in Expo apps that have not been ejected).
