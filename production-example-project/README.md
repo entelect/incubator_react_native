@@ -4,6 +4,24 @@
 
 [![js-standard-style](https://cdn.rawgit.com/standard/standard/master/badge.svg)](http://standardjs.com)
 
+## Preface
+
+This project does not serve as a sollution to this incubator, but rather as an example of an enterprise-level application. It demonstrates concepts such as: 
+-   Global state management
+-   Navigation frameworks
+-   Device API's
+-   Network requests
+-   Responsiveness 
+-   Development tools:
+    -   Code scaffolding (_Generate-React-Code_)
+    -   Code standardisation (_Prettier_)
+    -   Code analysis (_ESLint_)
+    -   Code testing (_Jest, Enzyme_)
+-   Global styling
+-   Native code libraries
+
+This project may be used as a seed for new enterprise projects.
+
 ## Prerequisites
 
 -   Node v[`8.3.X`](https://nodejs.org/en/) or higher
