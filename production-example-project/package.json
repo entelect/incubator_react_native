@@ -13,7 +13,7 @@
         "ensure-no-wild-cards": "node ./utilities/validate-dependencies/check-dependencies-for-wildcards.js"
     },
     "dependencies": {
-        "axios": "0.18.0",
+        "axios": "0.18.1",
         "lodash": "4.17.11",
         "lottie-react-native": "2.5.10",
         "prop-types": "15.6.2",
